@@ -29,8 +29,9 @@ void reverserec(int arr[],int n){
         return;
     }
     
-    cout<<arr[n]<<" ";
     reverserec(arr,n-1);
+        cout<<arr[n]<<" ";
+
     
 }
 
